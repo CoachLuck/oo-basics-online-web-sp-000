@@ -6,5 +6,7 @@ class Book
   end
 
   def turn_page
+    @page_count++
+    puts "Flipping the page..wow, you read fast!"
   end
 end
